@@ -16,13 +16,13 @@ $(document).ready(function() {
 
     if ($("td.active").hasClass('final')) {
       if (winner == 1) {
-        $("#player1_race > td.active" ).removeClass('active slideRight').next().addClass('active slideRight');
+        $("#player1_race > td.active" ).removeClass('active slideRight').next().addClass('active');
         $('#game').delay(1000).hide(0);
         $('#victory_red').delay(1000).show(0);
         $('.btn').delay(1000).hide(0);
       }
       else {
-        $("#player2_race > td.active" ).removeClass('active slideRight').next().addClass('active slideRight');
+        $("#player2_race > td.active" ).removeClass('active slideRight').next().addClass('active');
         $('#game').delay(1000).hide(0);
         $('#victory_yellow').delay(1000).show(0);
         $('.btn').delay(1000).hide(0);
