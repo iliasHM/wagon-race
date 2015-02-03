@@ -1,0 +1,101 @@
+
+.racer_table td {
+  height: 40px;
+  width: 40px;
+/*  background-color: #E8E8E8;
+*/}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2_race td.active {
+  background-image: url("images/player_2.png");
+}
+
+#player2_race td {
+  border-top: dashed white;
+}
+.racer_table td.final2 {
+    border-left: dashed grey;
+    background-color: #E8E8B3;
+    height: 40px;
+    width: 40px;
+  }
+
+.racer_table {
+  margin-left: 20px;
+  background-color: #E8E8E8;
+}
+
+.centered {
+  margin-top: 200px;
+}
+
+#victory_red {
+  display: none;
+  background-color: rgba(0,0,0,0.2);
+  margin-top: 200px;
+}
+
+p {
+  font-size: 32px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+a {
+  font-style: none;
+  color: red;
+}
+
+h1 {
+  visibility: hidden;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+
+}
+
+img {
+  margin-left: 575px;
+}
+
+.btn {
+  visibility: hidden;
+  margin-left: 575px;
+  margin-top: 20px;
+}
+
+#game {
+  visibility: hidden;
+}
+
+
+#victory_yellow {
+  display: none;
+  background-color: rgba(0,0,0,0.2);
+  margin-top: 200px;
+}
+
+#instructions {
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  border: 3px solid red;
+  width: 100%;
+  bottom: 0;
+  height: 216px;
+  margin: auto;
+}
+
+#ready:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+/* Your board style here */
